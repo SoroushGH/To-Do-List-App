@@ -1,0 +1,27 @@
+body {
+        background-image: url('image/todo_bg.jpg');
+    }
+
+    .container h1 {
+        padding: 50px 0 20px 0;
+    }
+
+    input[type=text],
+    input[type=text]:focus {
+        color: #fff;
+        border: none;
+        background: rgba(0, 0, 0, 0.2);
+
+    }
+
+    .todos li {
+        background: #423a6f;
+    }
+
+    .delete {
+        cursor: pointer;
+    }
+
+    .filtered {
+        display: none !important;
+    }
